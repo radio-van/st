@@ -1,19 +1,19 @@
 # Maintainer:
 
-pkgname=st-luke-git
+pkgname=st-radiovan
 _pkgname=st
-pkgver=0.8.2.r1062.2087ab9
+pkgver=0.8.4.r1184.0af4782
 pkgrel=1
 epoch=1
-pkgdesc="Luke's simple (suckless) terminal with vim-bindings, transparency, xresources, etc. "
-url='https://github.com/LukeSmithxyz/st'
+pkgdesc="Modified ST terminal"
+url='https://github.com/radio-van/st'
 arch=('i686' 'x86_64')
 license=('MIT')
 options=('zipman')
 depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 optdepends=('dmenu: feed urls to dmenu')
-source=('git://github.com/LukeSmithxyz/st')
+source=('git://github.com/radio-van/st')
 sha1sums=('SKIP')
 
 provides=("${_pkgname}")
