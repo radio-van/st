@@ -1,4 +1,7 @@
-patches/
-.gitignore
 *.o
+
+patches/
+pkg/
+src/
+
 st
