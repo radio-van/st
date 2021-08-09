@@ -1,7 +1,7 @@
 pkgname=st
 
 # version is defined by upstream package
-pkgver=0.8.4
+pkgver=0.8.4.r1186.13c20b6
 pkgver() {
 	cd "${pkgname}"
 	printf "%s.r%s.%s" "$(awk '/^VERSION =/ {print $3}' config.mk)" \
